@@ -141,7 +141,20 @@ useGSAP(()=>{/*making the function animate*/
             </div>
           </div>
         </div>
-        
+        <div className="w-full h-screen flex items-center justify-center bg-black">
+          <div className="cntnr flex text-white w-full h-[80%]">
+          <div className="limg relative w-1/2 h-full">
+            <img className="absolute scale-[0.8] top-1/2 left-1/2 -translate-x-1/2 -translate-1/2" src="./imag.png" alt="" />
+          </div>
+          <div className="rg w-[30%] py-5">
+            <h1 className="text-7xl">Still Rollin</h1>
+            <h1 className="text-7xl">Not Hunting</h1>
+            <p className="mt-10 text-1xl font-[Helvetica_Now_Display]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aspernatur accusamus, harum nesciunt facilis minus excepturi necessitatibus mollitia quis inventore at nulla repellat! Natus perferendis iure reiciendis molestias, saepe consequatur officia consequuntur assumenda velit alias!</p>
+            <p className="mt-10 text-1xl font-[Helvetica_Now_Display]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatum quidem animi velit amet non a fugiat quo? Placeat, eius!</p>
+            <button className="bg-red-700 mt-10 px-10 py-10 text-3xl text-black">Download Now</button>
+          </div>
+          </div>
+        </div>
       </div>
      ) }
     </>
