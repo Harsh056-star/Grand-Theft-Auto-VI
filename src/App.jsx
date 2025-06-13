@@ -60,8 +60,13 @@ useGSAP(()=>{/*making the function animate*/
           />
         </svg>
       </div>
-      {showContent && <div className="main" w-full h-full bg-black> </div>
-      }
+      {showContent && (<div className="main w-full ">
+        {/* <h3>GTA VI</h3> */}
+        <div className="landing w-full h-screen bg-black">
+
+        </div>
+      </div>
+     ) }
     </>
   )
 }
