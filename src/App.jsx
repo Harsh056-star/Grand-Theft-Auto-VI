@@ -63,8 +63,18 @@ useGSAP(()=>{/*making the function animate*/
       {showContent && (<div className="main w-full ">
         {/* <h3>GTA VI</h3> */}
         <div className="landing w-full h-screen bg-black">
+          <div className="navbar absolute top-0 left-0 z-10 w-full py-10 px-10">
+            <div className="logo flex gap-5">
+              <div className="lines flex flex-col gap-[7px]">
+                <div className="line w-11 h-2 bg-white"></div>
+                <div className="line w-7 h-2 bg-white"></div>
+                <div className="line w-4 h-2 bg-white"></div>
+              </div>
+              <h3 className="text-5xl leading-none text-white -mt-3">Rockstar</h3>
+            </div>
+          </div>
 
-          <div className="imagesdiv relative w-full h-screen">
+          <div className="imagesdiv relative overflow-hidden w-full h-screen">
 
             <img className="absolute top-0 left-0 w-full h-full object-cover"src="./sky.png" alt="" />
             <img className="absolute top-0 left-0 w-full h-full object-cover"src="./bg.png" alt="" />
