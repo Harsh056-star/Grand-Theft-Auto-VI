@@ -59,7 +59,7 @@ useGSAP(()=>{/*making the function animate*/
       ease: "Expo.ease.InOut",
     })
     gsap.to(".character",{
-      scale: .7,
+      scale: .8,
       x:"-50%",
       bottom:"-70%",
       rotate: 0,
@@ -159,7 +159,7 @@ useGSAP(()=>{/*making the function animate*/
             <img className="absolute sky scale-[1.4] rotate-[-20deg] top-0 left-0 w-full h-full object-cover"src="./sky.png" alt="" />
             <img className="absolute scale-[1.3] rotate-[-3deg]bg top-0 left-0 w-full h-full object-cover" src="./bg.png" alt="" />
 
-            <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1] rotate-[-10deg]">
+            <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/4 scale-[1] rotate-[-10deg]">
             <h1 className="text-9xl leading-none -ml-40">grand</h1>
             <h1 className="text-9xl leading-none  ml-20">theft</h1>
             <h1 className="text-9xl leading-none -ml-40">auto</h1>
