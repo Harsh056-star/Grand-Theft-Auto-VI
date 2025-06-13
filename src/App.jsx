@@ -64,6 +64,12 @@ useGSAP(()=>{/*making the function animate*/
         {/* <h3>GTA VI</h3> */}
         <div className="landing w-full h-screen bg-black">
 
+          <div className="imagesdiv relative w-full h-screen">
+
+            <img className="absolute top-0 left-0 w-full h-full object-cover"src="./sky.png" alt="" />
+            <img className="absolute top-0 left-0 w-full h-full object-cover"src="./bg.png" alt="" />
+            <img className="absolute -bottom-[40%] left-1/2 -translate-x-1/2 scale-[0.6]" src="./girlbg.png" alt="" />
+          </div>
         </div>
       </div>
      ) }
