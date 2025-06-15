@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
 import "remixicon/fonts/remixicon.css";
@@ -44,6 +44,7 @@ useGSAP(()=>{/*making the function animate*/
       delay: "-1",
       ease: "Expo.ease.InOut",
     })
+
      gsap.to(".sky",{
       scale:1.1,
       rotate: 0,
@@ -51,6 +52,7 @@ useGSAP(()=>{/*making the function animate*/
       delay: "-.8",
       ease: "Expo.ease.InOut",
     })
+
      gsap.to(".bg",{
       scale:1.1,
       rotate: 0,
@@ -58,6 +60,7 @@ useGSAP(()=>{/*making the function animate*/
       delay: "-.8",
       ease: "Expo.ease.InOut",
     })
+
     gsap.to(".character",{
       scale: .8,
       x:"-50%",
@@ -67,6 +70,7 @@ useGSAP(()=>{/*making the function animate*/
       delay: "-.8",
       ease: "Expo.ease.InOut",
     })
+    
     gsap.to(".text",{
       scale: 1,
       rotate: 0,
