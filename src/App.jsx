@@ -103,7 +103,7 @@ useGSAP(()=>{/*making the function animate*/
 
   return (
     <>
-      <div className="svg flex items-center justify-centerfixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-black">
+      <div className="svg flex items-center justify-center fixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-black">
         <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
 
           <defs>
@@ -178,7 +178,7 @@ useGSAP(()=>{/*making the function animate*/
             <div className="flex gap-4 items-center">
 
               <i className="text-2xl ri-arrow-down-line"></i>
-              <h3 className="text-xlfont-[Helvetica_Now_Display]">Scroll Down</h3>
+              <h3 className="text-xl font-[Helvetica_Now_Display]">Scroll Down</h3>
 
             </div>
 
